@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=p1\ p2
+comment0.target=double\ calcDist(float[],\ float[])
+comment1.params=x1\ y1\ z1\ x2\ y2\ z2
+comment1.target=java.lang.String\ findLine(double,\ double,\ double,\ double,\ double,\ double)
+comment2.params=x1\ y1\ z1\ x2\ y2\ z2\ x3\ y3\ z3
+comment2.target=java.lang.String\ findPlane(double,\ double,\ double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment3.params=mat
+comment3.target=double\ determinant(double[][])
+numComments=4

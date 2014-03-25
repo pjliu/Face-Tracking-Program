@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main([Ljava.lang.String;)
+comment1.params=fileName
+comment1.target=java.awt.Dimension\ getImageDimension(java.lang.String)
+comment1.text=\r\n\ \ \ \ public\ static\ void\ saveComponentAsJPEG(Component\ myComponent,\ String\ fileName)\ throws\ Exception\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ FileOutputStream\ fos\ \=\ new\ FileOutputStream(fileName);\r\n\ \ \ \ \ \ \ \ Dimension\ size\ \=\ myComponent.getPreferredSize();\r\n\ \ \ \ \ \ \ \ BufferedImage\ myImage\ \=\ new\ BufferedImage(size.width,\ size.height,\ BufferedImage.TYPE_INT_RGB);\r\n\ \ \ \ \ \ \ \ Graphics2D\ g2\ \=\ myImage.createGraphics();\r\n\ \ \ \ \ \ \ \ myComponent.paint(g2);\r\n\ \ \ \ \ \ \ \ JPEGImageEncoder\ encoder\ \=\ JPEGCodec.createJPEGEncoder(fos);\r\n\ \ \ \ \ \ \ \ encoder.encode(myImage);\r\n\ \ \ \ \ \ \ \ fos.close();\r\n\ \ \ \ }\r\n
+numComments=2
